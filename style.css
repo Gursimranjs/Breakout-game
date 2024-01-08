@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    border: solid black 1px;
+    
+}
+.block{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(157, 157, 215);
+}
+
+.user{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(97, 97, 159);
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+}
